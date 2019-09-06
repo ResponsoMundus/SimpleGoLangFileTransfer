@@ -1,0 +1,11 @@
+This is a simple file transfer program build by golang, possibly counted as file sharing
+To run,
+	1) Simply build Server and Client with command "go build"
+	2) Start the server in Server directory with command "server" on windows or "./server" on linux
+	3) Start the client in Client directory with command "client filename ServerIP" on windows or 
+	"./client filename ServerIP"
+	For example, "client Westeros.png localhost"
+	4) Done!(Or dead maybe)
+
+There are pictures(Server.JPG and Client.PNG) of me running it to transfer two test files
+(dummyfile.dat and Westeros.png) from my machine as server to a machine of my roommate.
